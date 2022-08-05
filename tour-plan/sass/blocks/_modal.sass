@@ -1,0 +1,92 @@
+.modal
+  &__overlay
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(0, 143, 223, 0.39)
+    z-index: 110
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__dialog
+    position: fixed
+    top: 50%
+    left: 50%
+    max-width: 478px
+    padding: 30px 85px
+    background-color: $dark
+    transform: translate(-50%,-50%)
+    border-radius: 8px
+    color: $light 
+    z-index: 120
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    font-size: 12px
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__form
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__title
+    margin: 0 
+    margin-bottom: 15px
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    text-transform: uppercase
+    text-align: center
+  &__close
+    position: absolute
+    right: 18px
+    top: 17px
+    text-decoration: none
+    cursor: pointer
+  &__input
+    width: 100%
+    margin-top: 22px
+  &__input:first-child
+    margin-top: 0
+    // padding-bottom: 15px
+  &__input::placeholder
+    opacity: 1
+    color: #BDBDBD
+    font-size: 12px
+    line-height: 15px
+  #name-error
+    position: absolute
+    top: 52px
+  #phone-error
+    position: absolute
+    top: 124px
+  #email-error
+    position: absolute
+    top: 198px
+  &__message
+    width: 100%
+    height: 123px
+    margin-top: 23px
+  &__message::placeholder
+    opacity: 1
+    color: #BDBDBD
+    font-size: 12px
+    line-height: 15px
+  &__button
+    margin-top: 15px
+    cursor: pointer
+  &__info
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: #E0E0E0

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'PariMatchRegular';
+  src: url('../fonts/PariMatchRegular.woff') format('woff'),
+       url('../fonts/PariMatchRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe-Regular';
+  src: url('../fonts/Circe-Regular.woff') format('woff'),
+       url('../fonts/Circe-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MainPage</title>
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container doms">
+    <header>
+
+      <div class="row align-items-center ">
+
+        <div class="col-5 col-sm-3 col-xl-2 col-md-3 ">
+          <img src="image/iconf.png" alt="" class="logo">
+        </div>
+
+        <div class="col-2 col-xl-2 col-sm-2 col-md-3 ">
+          <div class="logos font-weight-bold">itProger</div>
+          <div class="logos text-danger font-weight-bold">Blog</div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 col-lg-4">
+          <input type="search" name="search" id="searchs" placeholder="Поиск">
+        </div>
+
+        <div id="search">
+          <button type="button" class="close">×</button>
+          <form>
+            <h2 class="formsea">Форма поиска</h2>
+            <input type="search" value="" placeholder="Поиск">
+            <button type="submit" class="btn ">Закрыть</button>
+          </form>
+        </div>
+
+        <div class="col-12 col-xl-4 col-lg-1 ">
+          <button type="button" class="btn btn-light">Главная</button>
+          <button type="button" class="btn btn-light">Статьи</button>
+          <button type="button" class="btn btn-light">Контакты</button>
+        </div>
+
+      </div>
+
+    </header>
+  </div>
+  <br>
+
+  <div class=" two container ">
+    <div class="row align-items-center">
+      <div class="col col-xl-6">
+        <h1>3 основные сферы применения языка Python</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero neque hic doloremque tempora soluta dolores,
+          sint nam architecto molestias autem quisquam magnam blanditiis praesentium dolor deleniti asperiores at
+          voluptate fuga ipsa quod cum quos. Autem sint fugiat eveniet enim asperiores.</p>
+        <button type="button" class="btn btn-danger">Читать далее</button>
+      </div>
+      <div class="col-12 col-xl-6">
+        <img src="image/mozrust.png" alt="" class="moz img-thumbnail">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="three container  ">
+    <div class="row ">
+      <div class="col-xl-8 col-lg-12 col-md-12">
+        <h1>Новости</h1>
+
+        <div class="card float-left  ">
+          <img class="card-img-top" src="image/men.jpg" alt="Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sint eligendi nisi
+              excepturi aliquid. Enim, quos, alias. Deserunt, sint, quos!</p>
+            <a href="#" class="btn btn-warning">Читать далее</a>
+          </div>
+        </div>
+
+        <div class="card float-left">
+          <img class="card-img-top" src="image/men.jpg" alt="Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus error illo porro
+              delectus cupiditate molestias aliquam repudiandae eum praesentium minima.</p>
+            <a href="#" class="btn btn-warning">Читать далее</a>
+          </div>
+        </div>
+
+        <div class="card float-left ">
+          <img class="card-img-top" src="image/men.jpg" alt="Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок</h5>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolor soluta cum iusto
+              nemo repudiandae nulla fugiat, assumenda sit. Placeat quidem alias amet eligendi rerum, necessitatibus
+              magni facilis atque omnis.</p>
+            <a href="#" class="btn btn-warning">Читать далее</a>
+          </div>
+        </div>
+
+        <div class="card float-left">
+          <img class="card-img-top" src="image/men.jpg" alt="Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsam dicta qui natus
+              eos nemo tempore, officia debitis harum doloribus reprehenderit praesentium incidunt eaque velit adipisci
+              dolorum animi nesciunt saepe iure minus eum necessitatibus consectetur nam! Nemo, temporibus ratione
+              perspiciatis!</p>
+            <a href="#" class="btn btn-warning">Читать далее</a>
+          </div>
+        </div>
+
+        <div style="clear: both"></div>
+        <div id="loadMoreBlock"></div>
+        <div style="clear: both"></div>
+        <button type="button" class="btn btn-danger more" id="loadMore">Подгрузить больше</button>
+
+      </div>
+
+      <div class="col col-lg-6 col-xl-4">
+        <h1>Анонсы</h1>
+
+        <div class="lor">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officiis, nulla fugit! Possimus
+            laudantium consequuntur odio necessitatibus quis iusto omnis.</p>
+        </div>
+
+        <div class="card2 float-left bg-info">
+          <img class="card-img-top img-thumbnail" src="image/men.jpg"
+            alt="Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam itaque at
+              obcaecati, quod voluptates, facere cumque soluta reiciendis assumenda cum.</p>
+            <a href="#" class="btn btn-light">Читать далее</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="border-top">
+
+      <p class="font-weight-bold">Все права защищены &copy;</p>
+
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

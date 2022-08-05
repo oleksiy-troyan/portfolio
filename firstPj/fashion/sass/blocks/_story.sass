@@ -1,0 +1,115 @@
+.story
+  padding-bottom: 140px
+  .container
+    max-width: 1150px
+  &__line
+    max-width: 1140px
+    height: 1px
+    border: 1px solid #E5EAF4
+    margin-bottom: 120px
+  &__stories
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 88px
+    height: 32px
+    margin-bottom: 28px
+    background: #d6e5df
+    border-radius: 2000px
+    span
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 20px
+      color: #36B37E
+  &__wrap
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  &__info
+    width: 392px
+  &__title
+    margin: 0
+    padding: 0
+    margin-bottom: 24px
+    font-family: HK Grotesk
+    font-style: normal
+    font-weight: bold
+    font-size: 48px
+    line-height: 60px
+    letter-spacing: 0.2px
+    color: #183B56
+  &__text
+    font-style: normal
+    font-weight: normal
+    font-size: 20px
+    line-height: 36px
+    color: #5A7184
+    margin-bottom: 42px
+  &-slider
+    width: 662px  
+  &__card
+    position: relative
+    width: 322px
+    height: 475px
+    margin-left: 3px
+    &-info
+      position: absolute
+      right: 0
+      bottom: 0
+      width: 312px
+      height: 178px
+      background-color: #FAFDFF
+      z-index: 10
+      padding: 20px 0
+      padding-left: 20px
+    &-title
+      font-family: HK Grotesk
+      font-style: normal
+      font-weight: 600
+      font-size: 22px
+      line-height: 32px
+      letter-spacing: 0.2px
+      color: #183B56
+      margin-bottom: 12px
+      max-width: 260px
+    &-more
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+      color: #1565D8
+      text-decoration: none
+      cursor: pointer
+  &__img
+    width: 312px
+    height: 317px
+    border-radius: 8px 8px 0 0
+    object-fit: cover
+  &__buttons
+    display: flex
+    align-items: center
+  &__button
+    &-prev
+      width: 56px
+      height: 56px
+      background: url(../img/button-prev.svg) center (center / cover) no-repeat
+      margin-right: 22px
+      cursor: pointer
+      outline: none
+      opacity: 0.4
+      transform: rotate(180deg)
+    &-prev:hover
+      opacity: 1
+  &__button
+    &-next
+      width: 56px
+      height: 56px
+      background: url(../img/button-next.svg) center (center / cover) no-repeat
+      cursor: pointer
+      outline: none
+      opacity: 0.4
+    &-next:hover
+      opacity: 1
+  .activ
+    opacity: 1   

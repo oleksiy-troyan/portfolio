@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,AAAC,CACA,WAAW,CAAE,oBAAoB,CAAG",
-    "sources": [
-        "../sass/style.sass",
-        "../sass/_general.sass"
-    ],
-    "names": [],
-    "file": "style.min.css"
-}
+{"version":3,"sources":["../sass/style.sass"],"names":[],"mappings":"AAAA,EACE,+BAAA","file":"style.min.css"}

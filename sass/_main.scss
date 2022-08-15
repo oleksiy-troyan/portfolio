@@ -1,0 +1,20 @@
+.main {
+  &__image {
+    &_down {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    &_up {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}

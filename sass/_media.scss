@@ -1,0 +1,37 @@
+@media (max-width: 1200px) {
+  .main {
+    .container {
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .main {
+    .container {
+      justify-content: center;
+      .aside {
+        width: 300px;
+        &__link {
+          width: 200px;
+        }
+        .info {
+          .contacts {
+            &__link {
+              a {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+      .hero {
+        .profile {
+          padding: 20px;
+        }
+        &__wrapper {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
